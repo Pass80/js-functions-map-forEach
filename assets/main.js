@@ -1,17 +1,17 @@
 let getraenke = [
-    'Apfelsaft',
     'Coca-Cola',
-    'Fanta',
-    'Orangensaft',
+    'Apfelsaft',
     'Pepsi',
-    'Red Bull Energy Drink',
-    'Sprite',
     'Traubensaft',
+    'Sprite',
+    'Orangensaft',
+    'Red Bull Energy Drink',
+    'Fanta',
 ];
 
-getraenke.forEach((element) => {
+getraenke.sort().forEach((element) => {
     console.log(element);
-    document.write(element);
+    document.write(element + ' , ');
 });
 
 console.log('===========================');
